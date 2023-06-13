@@ -8,3 +8,4 @@
 ## TODO
 1. 将discriminator与generator的训练比例维护为一个输入参数
 2. 重新组织代码结构，使其易于维护
+3. 当generator和discriminator训练次数为1：1时，结果生成出的数字大多为1.需要考虑如何生成更丰富的数字。(引入罚分机制)
